@@ -13,8 +13,8 @@
             margin: 0 auto;
             border: 1px solid black;
             min-height: 300px;
-            padding: 20px;
-             background: rgba(0,0,0,0.4);
+            padding-bottom: 10px;
+             background: rgba(238,235,235,0.4);
         }
         
 
@@ -35,7 +35,7 @@
     <br />
     <br />
     <div class="box1">
-        <div class="input-group" style="color:white">
+        <div class="input-group" style="color:white;background:rgba(83, 146, 184,0.6);width:100%;"  >
            <strong> Giriş Sayfası</strong>
         </div>
         <br />
