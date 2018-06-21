@@ -34,8 +34,6 @@
     <br />
     <br />
     <br />
-    <br />
-    <br />
     <div class="box1">
         <div class="input-group" style="color:white">
            <strong> Giriş Sayfası</strong>
