@@ -36,20 +36,7 @@
     <br />
     <br />
     <br />
-    <br />
-    <br />
-    <br />
-    <br />
-&nbsp;<br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
     <div class="box1">
-        <br />
         <div class="input-group" style="color:white">
            <strong> Giriş Sayfası</strong>
         </div>
@@ -68,15 +55,15 @@
         </div>
         <br />
         <br />       
-        <div class="input-group" style="color: white">
-            <input  class="text-left" type="checkbox" name="box1" value="secim1" title="seç" />Beni Hatırla<br />
-        </div>
+        
         <br />
         <div class="input-group">
             <p class="text-left">
-                <a href="sifre.aspx">Şifreni mi unuttun?</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp
+                <a href="sifre.aspx">Şifreni mi unuttun?</a>&nbsp;&nbsp;&nbsp;&nbsp
             </p>
-            
+            <p class="text-center" style="color:white">
+                <input class="text-left" type="checkbox" name="box1" value="secim1" title="seç" />Beni Hatırla<br /> &nbsp;&nbsp;&nbsp;&nbsp
+            </p>&nbsp;&nbsp;&nbsp;&nbsp
             <p class="text-right">
                 <a class=" text-right" href="uyeol.aspx">Şimdi Üye Ol</a>
             </p>
