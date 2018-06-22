@@ -4,19 +4,13 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width-device-width,initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title></title>
     <style>
         .box1 {
-            top: 0px;
-            left: 50%;
-            width: 400px;
-            margin: 0 auto;
-            border: 1px solid black;
-            min-height: 300px;
-            padding-bottom: 10px;
-             background: rgba(238,235,235,0.4);
+            background: rgba(56, 53, 53, 0.60);
         }
-        
+
 
         body {
             background-image: url("images/forest.jpg");
@@ -34,37 +28,52 @@
     <br />
     <br />
     <br />
-    <div class="box1">
-        <div class="input-group" style="color:white;background:rgba(83, 146, 184,0.6);width:100%;"  >
-           <strong> Giriş Sayfası</strong>
-        </div>
-        <br />
 
-        <div class="input-group">
-            <input type="text" class="form-control" placeholder="Email" required="autofocus" />
-        </div>
-        <br />
-        <div class="input-group">
-            <input type="password" class="form-control" placeholder="Şifre" required="" />
-        </div>
-        <br />       
-        <div class="input-group">
-            <button type="submit" class="btn btn-success btn-block" style="color: black;">Giriş</button>
-        </div>
-        <br />
-        <br />       
-        
-        <br />
-        <div class="input-group">
+      
+    <div class="container">
+        <div class="offset-md-4 col-md-4 box1">
+            <div class="input-group" style="color: white; background: rgba(15, 6, 72, 0.60); width: 100%;">
+                <strong>Giriş Sayfası</strong>
+            </div>
+
+            <br />
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Email" required="autofocus" />
+            </div>
+
+            <br />
+
+            <div class="input-group">
+                <input type="password" class="form-control" placeholder="Şifre" required="" />
+            </div>
+
+            <br />
+
+            <div class="input-group">
+                <button type="submit" class="btn btn-success btn-block" style="color: black;">Giriş</button>
+
+
+                <br />
+
+                <div class="input-group">
+                    &nbsp;
+            <p class="text-center" style="color: white">
+                <input class="text-left" type="checkbox" name="box1" value="secim1" title="seç" />Beni Hatırla<br />
+                &nbsp;
+                &nbsp;
+            </p>
+                    &nbsp;
             <p class="text-left">
-                <a href="sifre.aspx">Şifreni mi unuttun?</a>&nbsp;&nbsp;&nbsp;&nbsp
+                <a href="sifre.aspx">Şifreni mi unuttun?</a>&nbsp;
             </p>
-            <p class="text-center" style="color:white">
-                <input class="text-left" type="checkbox" name="box1" value="secim1" title="seç" />Beni Hatırla<br /> &nbsp;&nbsp;&nbsp;&nbsp
-            </p>&nbsp;&nbsp;&nbsp;&nbsp
-            <p class="text-right">
-                <a class=" text-right" href="uyeol.aspx">Şimdi Üye Ol</a>
-            </p>
+
+                    <p class="text-right">
+                        <a class=" text-right" href="uyeol.aspx">Şimdi Üye Ol</a>&nbsp;
+                    </p>
+                </div>
+
+
+            </div>
         </div>
     </div>
 </body>
